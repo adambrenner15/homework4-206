@@ -26,7 +26,7 @@ class Customer:
         else:
             bill = cashier.place_order(stall, item_name, quantity) 
             self.submit_order(cashier, stall, bill) 
-            print("Your order has been served!")
+            print("Your order has been placed!")
 
     # Submit_order takes a cashier, a stall and an amount as parameters, 
     # it deducts the amount from the customer’s wallet and calls the receive_payment method on the cashier object
